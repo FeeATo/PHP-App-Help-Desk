@@ -6,6 +6,11 @@ Existem dois tipos de usuários, os do tipo **ADM** e os do tipo **Usuário**. O
 Os usuários foram definidos por "hardcode", apenas para teste.
 
 ### Instruções
-É necessário colocar as pastas *app_help_desk* e *arquivos_protegidos* no seu servidor HTTP local de preferência e acessá-los pelo endereço **localhost** e a porta definida. URL de exemplo*: "localhost:8080/app_help_desk/index.php".
-<sub>*(O endereço URL varia de ambiente para ambiente)</sub>
+É necessário colocar a pasta *app_help_desk* dentro do diretório público de seu servidor HTTP e a pasta *arquivos_protegidos* fora do diretório público do seu servidor HTTP. Separados por um nível. <br>
+**Isto é:**
+- *C:\\<servidor_http>\\<diretório_público>\\**app_help_desk***
+- *C:\\<servidor_http>\\**arquivos_protegidos***
 
+### Login
+- Administradores: **Login**: a<span>dm</span>@teste.com.br, **Senha:**1234 | **Login**: <span>unser</spa>@teste.com.br, **1234**
+- Usuário: **Login**: <span>miguel</span>@teste.com.br, **1234** | **Login**: <span>maria</span>@teste.com.br, **1234**
