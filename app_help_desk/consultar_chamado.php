@@ -6,7 +6,7 @@
   $chamados = array();
 
   //abre o arquivo apenas para leitura
-  $arquivo = fopen('../arquivos_protegidos/arquivo.txt', 'r');
+  $arquivo = fopen('../../arquivos_protegidos/arquivo.txt', 'r');
 
   //percorrer o arquivo enquanto houver linhas a serem recuperados
   while(!feof($arquivo)){ //feof()  testa pelo fim do arquivo (end of file)

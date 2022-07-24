@@ -5,7 +5,7 @@
     //<arquivo_Abrir> se arquivo não existir então será criado
     //<acao>: https://www.php.net/manual/en/function.fopen
 
-    $arquivo = fopen('../arquivos_protegidos/arquivo.txt', 'a');  
+    $arquivo = fopen('../../arquivos_protegidos/arquivo.txt', 'a');  
     //abre arquivo    
 
     foreach($_POST as $item){
